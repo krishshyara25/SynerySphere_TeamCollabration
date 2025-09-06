@@ -17,14 +17,6 @@ const MainHome = () => {
     },
     {
       id: 2,
-      title: "Video Conferencing",
-      icon: "🎥",
-      path: "/meeting",
-      className: "bg-gradient-to-br from-orange-100 to-orange-200",
-      color: "#FF7043"
-    },
-    {
-      id: 3,
       title: "Document Sharing",
       icon: "📄",
       path: "/documents",
@@ -32,7 +24,7 @@ const MainHome = () => {
       color: "#66BB6A"
     },
     {
-      id: 4,
+      id: 3,
       title: "Virtual Whiteboard",
       icon: "🖊️",
       path: "/whiteboard",
@@ -40,7 +32,7 @@ const MainHome = () => {
       color: "#42A5F5"
     },
     {
-      id: 5,
+      id: 4,
       title: "Messaging",
       icon: "💬",
       path: "/chat",
@@ -48,7 +40,7 @@ const MainHome = () => {
       color: "#AB47BC"
     },
     {
-      id: 6,
+      id: 5,
       title: "Calendar",
       icon: "📅",
       path: "/calendar",

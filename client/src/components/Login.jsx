@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
-import '../style/Login.css';
-import logo from '../assets/Logo.png';
-import meeting_img from '../assets/login/login_i.png';
-import Enter from '../Ui/Enter'; // Import the loader
 
 const Login = () => {
     const [formData, setFormData] = useState({
