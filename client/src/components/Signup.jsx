@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import '../style/Signup.css';
-import home_i from '../assets/home_i.png';
-import logo from '../assets/Logo.png';
+
 
 const Signup = () => {
     const [formData, setFormData] = useState({

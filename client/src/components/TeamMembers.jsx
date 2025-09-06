@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { MaterialReactTable } from 'material-react-table';
 import { Box, Button, IconButton, Tooltip, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { mkConfig, generateCsv, download } from 'export-to-csv';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';

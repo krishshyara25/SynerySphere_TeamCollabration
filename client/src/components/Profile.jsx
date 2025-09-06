@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Home, MapPin, Mail, IdCard, Briefcase } from 'lucide-react';
+// import { Home, MapPin, Mail, IdCard, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import '../style/Profile.css';
-import profile from '../assets/home_/profile_i.png';
-import ProfileLoader from '../Ui/Enter'; // Import the loader component
 
 const Profile = () => {
   const [user, setUser] = useState(null);
